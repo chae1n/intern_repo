@@ -1,1 +1,1 @@
-# inter_repo
+# intern_repo
