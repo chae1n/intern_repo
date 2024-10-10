@@ -16,6 +16,6 @@ def check(king, queen):
     return False
 
 #Example
-print(check("D6", "E7"))  # True, king can attack
-print(check("D6", "C5"))  # True, king can attack
-print(check("D6", "C7"))  # False, king cannot attack
+print(check("D6", "E7"))
+print(check("D6", "C5")) 
+print(check("D6", "C7"))  
