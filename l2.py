@@ -1,4 +1,6 @@
 from typing import List
+
+#Function to find two numbers in a list that add up to a given target
 def twoSum(nums: List[int], target: int) -> List[int]:
     #Using for loop to look through the list of integers 
     for number in nums:
