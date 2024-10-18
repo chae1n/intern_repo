@@ -1,4 +1,4 @@
-from typing import List
+class Solution:from typing import List
 
 def maxSum(nums: List[int]) -> int:
     biggest_single_digit = 0
@@ -14,11 +14,11 @@ def maxSum(nums: List[int]) -> int:
                 if number > largest_number:
                     second_largest_number = largest_number
                     largest_number = number
-                elif number > second_largest_number:
+                elif number > second_largest_number and number != largest_number:
                     second_largest_number = number
     if 0 == second_largest_number:
         return -1
     return largest_number + second_largest_number
 nums = [2536,1613,3366,162]
 print(maxSum(nums))
-    
+              
